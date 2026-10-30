@@ -1,0 +1,14 @@
+What ACTUALLY happens when you hit send on WhatsApp 👇
+
+1️⃣ Your phone encrypts the message with a key only your friend's phone can unlock (end-to-end encryption)
+2️⃣ It travels to WhatsApp's servers over a connection your phone keeps open → ✓ one grey tick
+3️⃣ The server can't read it, it only knows who it's for
+4️⃣ Friend offline? The server holds it for up to 30 days
+5️⃣ Their phone comes online → message pushed down + decrypted → ✓✓ two grey ticks
+6️⃣ They open the chat → a tiny read receipt flies back → blue ticks
+
+So if it's blue and there's no reply… not a tech problem 😅
+
+Follow for more tech, under the hood ⚙️
+
+#tech #whatsapp #howitworks #encryption #techexplained #programming #computerscience #softwareengineering #techfacts #underthehood

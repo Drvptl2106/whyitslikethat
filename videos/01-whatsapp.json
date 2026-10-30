@@ -1,0 +1,65 @@
+{
+  "id": "01-whatsapp",
+  "title": "What happens when you hit SEND on WhatsApp",
+  "voice": "am_michael",
+  "speed": 1.2,
+  "caption": "What ACTUALLY happens when you hit send on WhatsApp 👇\n\n1️⃣ Your phone encrypts the message with a key only your friend's phone can unlock (end-to-end encryption)\n2️⃣ It travels to WhatsApp's servers over a connection your phone keeps open → ✓ one grey tick\n3️⃣ The server can't read it, it only knows who it's for\n4️⃣ Friend offline? The server holds it for up to 30 days\n5️⃣ Their phone comes online → message pushed down + decrypted → ✓✓ two grey ticks\n6️⃣ They open the chat → a tiny read receipt flies back → blue ticks\n\nSo if it's blue and there's no reply… not a tech problem 😅\n\nFollow for more tech, under the hood ⚙️\n\n#tech #whatsapp #howitworks #encryption #techexplained #programming #computerscience #softwareengineering #techfacts #underthehood",
+  "scenes": [
+    {
+      "id": "hook",
+      "say": "You hit send. In under a second, your message goes on a wild trip. Here's what actually happens.",
+      "keywords": ["send", "second", "trip"],
+      "beats": {"tap": "@send", "burst": "@second", "title": "@Here's"},
+      "sfx": [["tap", "tap"], ["burst", "whoosh"], ["title", "riser"]]
+    },
+    {
+      "id": "encrypt",
+      "say": "First, your phone scrambles it. It gets encrypted with a key that only your friend's phone can unlock.",
+      "keywords": ["scrambles", "encrypted", "only", "unlock"],
+      "beats": {"scramble": "@scrambles", "lock": "@encrypted", "key": "@key"},
+      "sfx": [["scramble", "glitch"], ["lock", "lock"], ["key", "pop"]]
+    },
+    {
+      "id": "travel",
+      "say": "Then it shoots off to WhatsApp's servers, through a connection your phone keeps open all the time.",
+      "keywords": ["shoots", "servers", "open"],
+      "beats": {"launch": "@shoots", "arrive": "@servers", "pulse": "@open"},
+      "sfx": [["launch", "whoosh"], ["arrive", "pop"], ["pulse", "blip"]]
+    },
+    {
+      "id": "server",
+      "say": "That's your first grey tick. And the server can't read it. All it sees is who it's for.",
+      "keywords": ["first", "tick", "can't", "who"],
+      "beats": {"tick": "@tick", "nope": "@can't", "label": "@who"},
+      "sfx": [["tick", "ding"], ["nope", "error"], ["label", "pop"]]
+    },
+    {
+      "id": "offline",
+      "say": "If your friend's phone is offline, the server holds onto it, for up to 30 days.",
+      "keywords": ["offline", "holds", "30", "days."],
+      "beats": {"off": "@offline", "hold": "@holds", "days": "@30"},
+      "sfx": [["off", "powerdown"], ["hold", "blip"], ["days", "ticks"]]
+    },
+    {
+      "id": "deliver",
+      "say": "The moment their phone comes online, the message is pushed down and unlocked. Two grey ticks.",
+      "keywords": ["online,", "pushed", "unlocked.", "Two"],
+      "beats": {"on": "@online,", "push": "@pushed", "unlock": "@unlocked.", "ticks": "@Two"},
+      "sfx": [["on", "powerup"], ["push", "whoosh"], ["unlock", "unlock"], ["ticks", "ding"]]
+    },
+    {
+      "id": "read",
+      "say": "And when they open the chat, their phone fires a tiny receipt back to yours. Blue ticks.",
+      "keywords": ["open", "receipt", "Blue"],
+      "beats": {"open": "@open", "fire": "@fires", "blue": "@Blue"},
+      "sfx": [["open", "tap"], ["fire", "whoosh"], ["blue", "success"]]
+    },
+    {
+      "id": "outro",
+      "say": "So if it's blue, and they still haven't replied... that's not a tech problem. Follow for more tech, under the hood.",
+      "keywords": ["blue,", "not", "Follow", "hood."],
+      "beats": {"punch": "@not", "follow": "@Follow"},
+      "sfx": [["punch", "boom"], ["follow", "riser"]]
+    }
+  ]
+}

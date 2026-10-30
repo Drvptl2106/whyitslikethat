@@ -1,0 +1,17 @@
+You buy a 1TB laptop. It shows 931GB. Did they scam you? 👀
+
+Nope, there's a reason 👇
+
+💾 Drive makers count in decimal: 1 TB = 1,000,000,000,000 bytes
+🖥️ Windows counts in binary: 1 "GB" = 1,073,741,824 bytes (2³⁰)
+➗ 1 trillion ÷ 1024 ÷ 1024 ÷ 1024 = 931.3, which Windows still labels "GB"
+
+The gap grows with size: ~2% at KB, ~7% at GB, ~10% at TB.
+
+⚖️ It went to court: Western Digital settled in 2006, Seagate offered refunds in 2007.
+📖 The binary unit has a proper name, the "gibibyte" (GiB). Almost nobody uses it.
+🍎 macOS has counted in decimal since 2009, so the same drive shows 1 TB on a Mac.
+
+Follow for more on why things are the way they are.
+
+#tech #computers #storage #laptop #ssd #techfacts #didyouknow #windows #techexplained #whyitslikethat
